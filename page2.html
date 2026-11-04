@@ -6,25 +6,24 @@
     Page: Products & Services (Page 2)
     Author: Ellyanna Mattingly
     Date: November 4, 2026
-    Project: Pixel Paradise
+    Project: Lexington Medical Center
 -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixel Paradise | Products & Services</title>
+    <title>Lexington Medical Center | Services</title>
 
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f2f0ff;
-            color: #292343;
+            background-color: #f5f5f5;
+            color: #333333;
             margin: 0;
-            padding: 0;
         }
 
         header {
-            background-color: #39266d;
+            background-color: #7b1725;
             color: white;
             text-align: center;
             padding: 30px;
@@ -36,7 +35,7 @@
         }
 
         nav {
-            background-color: #251744;
+            background-color: #333333;
             padding: 15px;
             text-align: center;
         }
@@ -48,6 +47,10 @@
             font-weight: bold;
         }
 
+        nav a:hover {
+            color: #e8b9bf;
+        }
+
         main {
             max-width: 1100px;
             margin: auto;
@@ -55,7 +58,7 @@
         }
 
         h2 {
-            color: #553b91;
+            color: #7b1725;
             text-align: center;
         }
 
@@ -68,40 +71,38 @@
             margin-bottom: 35px;
         }
 
-        .products {
+        .services {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 20px;
         }
 
-        .product-card {
+        .service-card {
             background-color: white;
-            width: 220px;
-            padding: 20px;
-            border-radius: 12px;
+            width: 270px;
+            padding: 18px;
+            border-radius: 10px;
             text-align: center;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
-        .product-card img {
+        .service-card img {
             width: 100%;
-            height: 150px;
+            height: 170px;
             object-fit: cover;
             border-radius: 8px;
         }
 
-        .price {
-            color: #6741b5;
-            font-size: 20px;
-            font-weight: bold;
+        .service-card h3 {
+            color: #7b1725;
         }
 
         .process {
-            background-color: #e3dcfa;
+            background-color: #eadde0;
             padding: 25px;
             margin-top: 40px;
-            border-radius: 12px;
+            border-radius: 10px;
             text-align: center;
         }
 
@@ -114,32 +115,31 @@
 
         .step {
             background-color: white;
-            padding: 15px;
+            padding: 18px;
             border-radius: 10px;
-            width: 200px;
+            width: 220px;
         }
 
-        .promo {
-            background-color: #39266d;
+        .featured {
+            background-color: #7b1725;
             color: white;
             text-align: center;
             padding: 30px;
             margin-top: 35px;
-            border-radius: 12px;
+            border-radius: 10px;
         }
 
-        .promo h2 {
+        .featured h2 {
             color: white;
         }
 
-        .promo-code {
-            color: #f6d66b;
-            font-size: 24px;
+        .featured a {
+            color: white;
             font-weight: bold;
         }
 
         footer {
-            background-color: #251744;
+            background-color: #333333;
             color: white;
             text-align: center;
             padding: 15px;
@@ -151,114 +151,184 @@
 <body>
 
     <header>
-        <h1>Pixel Paradise</h1>
-        <p>Your Ultimate Gaming Destination!</p>
+        <h1>Lexington Medical Center</h1>
+        <p>Exceptional Care. Close to Home.</p>
     </header>
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="page2.html">Products & Services</a>
+        <a href="page2.html">Services</a>
+        <a href="page3.html">About Us & Contact</a>
     </nav>
 
     <main>
 
         <section class="intro">
-            <h2>Explore Our Products & Services</h2>
+            <h2>Our Medical Services</h2>
+
             <p>
-                At Pixel Paradise, we bring gamers everything they need
-                to level up their gaming experience. From consoles and
-                controllers to accessories and collectible merchandise,
-                we have something for every gamer!
+                Lexington Medical Center provides comprehensive
+                healthcare services to individuals and families
+                throughout the Midlands of South Carolina.
+                Our goal is to provide high-quality care,
+                advanced technology, and compassionate service
+                to every patient.
             </p>
         </section>
 
-        <h2>Our Gaming Catalog</h2>
+        <h2>Explore Our Services</h2>
 
-        <section class="products">
+        <section class="services">
 
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=500"
-                     alt="Gaming controller">
-                <h3>Pro Gaming Controller</h3>
-                <p>Enjoy precision controls and comfortable gameplay
-                   with our premium wireless controller.</p>
-                <p class="price">$59.99</p>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=500"
+                     alt="Emergency medical professionals">
+
+                <h3>Emergency Care</h3>
+
+                <p>
+                    Emergency medical care for serious illnesses,
+                    injuries, and unexpected medical situations.
+                    Our emergency department is available
+                    around the clock.
+                </p>
             </div>
 
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=500"
-                     alt="Gaming console">
-                <h3>Next-Gen Gaming Console</h3>
-                <p>Experience incredible graphics, fast loading,
-                   and endless gaming entertainment.</p>
-                <p class="price">$399.99</p>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=500"
+                     alt="Heart health medical equipment">
+
+                <h3>Heart & Vascular Care</h3>
+
+                <p>
+                    Specialized services focused on heart health,
+                    cardiovascular conditions, prevention,
+                    and treatment.
+                </p>
             </div>
 
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=500"
-                     alt="Gaming headset">
-                <h3>Surround Sound Headset</h3>
-                <p>Hear every detail with high-quality sound
-                   and a comfortable over-ear design.</p>
-                <p class="price">$79.99</p>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=500"
+                     alt="Medical maternity care">
+
+                <h3>Women's & Maternity Care</h3>
+
+                <p>
+                    Healthcare services for women, including
+                    pregnancy support, maternity services,
+                    and specialized medical care.
+                </p>
             </div>
 
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=500"
-                     alt="Gaming setup">
-                <h3>Ultimate Gamer Bundle</h3>
-                <p>Get a controller, headset, and gaming accessories
-                   all in one affordable package.</p>
-                <p class="price">$119.99</p>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?w=500"
+                     alt="Medical surgery equipment">
+
+                <h3>Surgical Services</h3>
+
+                <p>
+                    Surgical procedures supported by experienced
+                    medical professionals and advanced
+                    medical technology.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?w=500"
+                     alt="Medical imaging equipment">
+
+                <h3>Imaging & Radiology</h3>
+
+                <p>
+                    Diagnostic imaging services that help
+                    healthcare professionals identify,
+                    evaluate, and monitor medical conditions.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500"
+                     alt="Doctor consulting with a patient">
+
+                <h3>Primary Care</h3>
+
+                <p>
+                    Routine checkups, preventive care,
+                    health screenings, and ongoing support
+                    for your overall health.
+                </p>
             </div>
 
         </section>
 
         <section class="process">
-            <h2>How It Works</h2>
-            <p>Getting your favorite gaming products is easy!</p>
+
+            <h2>Your Healthcare Journey</h2>
+
+            <p>We make navigating your healthcare experience easier.</p>
 
             <div class="steps">
 
                 <div class="step">
-                    <h3>1. Browse</h3>
-                    <p>Explore our gaming catalog and find
-                       the products you love.</p>
+                    <h3>1. Schedule</h3>
+                    <p>
+                        Find a doctor or contact our team
+                        to schedule an appointment.
+                    </p>
                 </div>
 
                 <div class="step">
-                    <h3>2. Order</h3>
-                    <p>Choose your products and place
-                       your order online.</p>
+                    <h3>2. Receive Care</h3>
+                    <p>
+                        Meet with healthcare professionals
+                        who are dedicated to your well-being.
+                    </p>
                 </div>
 
                 <div class="step">
-                    <h3>3. Level Up!</h3>
-                    <p>Receive your order and enjoy
-                       your new gaming equipment!</p>
+                    <h3>3. Stay Connected</h3>
+                    <p>
+                        Access your health information,
+                        communicate with providers, and
+                        manage your ongoing care.
+                    </p>
                 </div>
 
             </div>
         </section>
 
-        <section class="promo">
-            <h2>Special Offer of the Month!</h2>
+        <section class="featured">
+
+            <h2>Featured Patient Resource: MyChart</h2>
+
             <p>
-                Ready to upgrade your gaming setup?
-                Get 15% off your entire order when you shop with us!
+                Stay connected to your healthcare through
+                Lexington Medical Center's patient portal.
+                MyChart gives patients convenient access
+                to health information and appointment tools.
             </p>
 
-            <p class="promo-code">USE CODE: LEVELUP15</p>
+            <p>
+                Manage appointments, view test results,
+                communicate with your healthcare team,
+                and access important health records.
+            </p>
 
-            <p>Limited-time offer. Don't miss out!</p>
+            <p>
+                <a href="https://www.lexhealth.com/"
+                   target="_blank">
+                    Visit Lexington Health
+                </a>
+            </p>
+
         </section>
 
     </main>
 
     <footer>
-        <p>&copy; 2026 Pixel Paradise. All Rights Reserved.</p>
+        <p>&copy; 2026 Lexington Medical Center Website Project.</p>
+        <p>Exceptional Care. Close to Home.</p>
     </footer>
 
 </body>
 </html>
-
